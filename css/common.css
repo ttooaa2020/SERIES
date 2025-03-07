@@ -140,8 +140,8 @@ header.hide {
 
 .logo a {
   display: block;
-  width: 14rem;
-  height: 5.3rem;
+  width: 20rem;
+  height: 7rem;
   background: url(../img/logo.svg) no-repeat center / contain;
 }
 
@@ -313,8 +313,8 @@ address {
 
 .foot-logo {
   display: block;
-  width: 22rem;
-  height: 8.3rem;
+  width: 20rem;
+  height: 7rem;
   background: url(../img/logo.svg) no-repeat center / contain;
 }
 
@@ -362,7 +362,6 @@ address {
   bottom: 11.5%;
   right: 3.9063%;
 }
-/* e. footer */
 
 .top {
   display: block;
@@ -374,8 +373,10 @@ address {
     no-repeat center/40%;
   /* 
   border: 0.5px solid #ffffff; */
+  border: 0.5px solid #ffffff;
 }
 
+/* e. footer */
 /* 반응형00000000000000000000000000000000000000000000000000000000000000000000000000 */
 
 @media screen and (max-width: 1400px) {

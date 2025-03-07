@@ -66,7 +66,6 @@
 .visual-btn:hover {
   background: var(--Light-100);
   border: 2px solid var(--Light-100);
-  color: var(--Light-100);
 }
 
 /* menu-all-list */
@@ -227,7 +226,7 @@
 .more-btn {
   width: 24rem;
   height: 7.2rem;
-  background: var(--btn);
+  background: var(--Darck-60);
 
   display: flex;
   align-items: center;
@@ -244,12 +243,17 @@
 
 .more-btn:hover {
   background: var(--main-color);
-  color: #fff;
+  color: var(--Light-100);
+  display: none;
 }
 
 /* e.commpany */
 
 /* s.event */
+
+.event-list-1 {
+  gap: 0.5rem;
+}
 
 .event-list {
   display: flex;
@@ -341,21 +345,6 @@
   color: var(--Light-100);
   font-size: clamp(2.5rem, 2.0833vw, 4rem);
   margin-bottom: 2rem;
-}
-
-.more-btn {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background-color: transparent;
-  border: 2px solid var(--Light-100);
-  color: var(--Light-100);
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.more-btn:hover {
-  background-color: var(--Light-100);
-  color: var(--Dark-100);
 }
 
 .bag-more::after {
