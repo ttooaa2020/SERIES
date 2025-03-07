@@ -244,7 +244,6 @@
 .more-btn:hover {
   background: var(--main-color);
   color: var(--Light-100);
-  display: none;
 }
 
 /* e.commpany */
